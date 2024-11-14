@@ -1,0 +1,40 @@
+.date-time-picker-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  font: normal normal normal 13px/15px Roboto;
+  margin-top: 50px;
+}
+
+.start-date, .end-date {
+  display: flex;
+  align-items: center;
+  width: 45%;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-start, 
+.mat-form-field-appearance-outline .mat-form-field-outline-end {
+  border-color: #5a5a5a;
+}
+
+mat-icon {
+  color: #5a5a5a;
+}
+
+.start-date::before {
+  content: '▶';
+  color: #FF6F56;
+ margin-right: 8px;
+} 
+
+.end-date::before {
+  content: '■';
+  color: #FF6F56;
+   margin-right: 8px; 
+} 
+

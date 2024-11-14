@@ -1,0 +1,60 @@
+<div class="station-list">
+  <div *ngFor="let station of stations" class="station-card">
+    <div class="station-header">
+      <div class="station-icon">
+        <img [src]="station.img" alt="" />
+      </div>
+      <div class="station-name">
+        <h3>{{ station.name }}</h3>
+      </div>
+      <div class="station-menu">
+        <button class="menu-button">...</button>
+      </div>
+    </div>
+
+    <div class="station-details d-block">
+      <div class="total-sales">
+        <span class="first">Total Sales</span>
+        <span class="second">{{ station.totalSales }} m<sup>3</sup></span>
+        <span class="first">Compression State</span>
+        <span class="second">{{ station.compressionState }}</span>
+        <span class="first">Max Transaction / hour</span>
+        <span class="second">{{ station.maxTransactionHour }}</span>
+      </div>
+      <div class="total-value">
+        <span class="first">Total Value</span>
+        <span class="second">{{ station.totalValue }} EGP</span>
+        <span class="first">Total Transaction Count</span>
+        <span class="second">{{ station.totalTransactionCount }}</span>
+        <span class="first">Max Transaction Date-Time</span>
+        <span class="second">{{ station.maxTransactionDateTime }}</span>
+      </div>
+      <!-- <div class="detail">
+        <span>Total Sales</span>
+        <span>{{ station.totalSales }} m<sup>3</sup></span>
+      </div>
+      <div class="detail">
+        <span>Total Value</span>
+        <span>{{ station.totalValue }} EGP</span>
+      </div>
+      <div class="detail">
+        <span>Compression State</span>
+        <span>{{ station.compressionState }}</span>
+      </div>
+      <div class="detail">
+        <span>Total Transaction Count</span>
+        <span>{{ station.totalTransactionCount }}</span>
+      </div>
+      <div class="detail">
+        <span>Max Transaction / hour</span>
+        <span>{{ station.maxTransactionHour }}</span>
+      </div>
+      <div class="detail">
+        <span>Max Transaction Date-Time</span>
+        <span>{{ station.maxTransactionDateTime }}</span>
+      </div>
+    </div>
+  </div> -->
+    </div>
+  </div>
+</div>
