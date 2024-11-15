@@ -1,0 +1,42 @@
+.view-properties {
+  margin-bottom: 20px;
+  width: 400px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: #FFF;
+}
+
+.view-properties h3 {
+  /* margin-bottom: 6px; */
+  font: normal normal 600 14px/16px Nunito Sans;
+  color: #000;
+}
+
+.property-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.property-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.property-item input[type="checkbox"] {
+  margin-right: 10px;
+  background-color: #F28B82;
+  border-color: #F28B82;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  fill: #F28B82;
+}
+
+.property-item label {
+  font-size: 14px;
+  color: #000;
+  font: normal normal 600 11px/12px Nunito Sans;
+}

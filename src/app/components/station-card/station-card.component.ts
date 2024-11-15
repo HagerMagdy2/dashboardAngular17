@@ -11,4 +11,6 @@ export class StationCardComponent {
   @Input() title: string = '';
   @Input() value: string = '';
   @Input() progress: number = 0;
+  @Input() barColor: string = '';
+  @Input() txtColor: string = '';
 }

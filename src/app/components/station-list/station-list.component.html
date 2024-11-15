@@ -1,16 +1,18 @@
 <div class="station-list">
   <div *ngFor="let station of stations" class="station-card">
     <div class="station-header">
-      <div class="station-icon">
+      <div class="station-icon d-flex">
+        <div class="ball" [style.backgroundColor]="station.ballColor"></div>
         <img [src]="station.img" alt="" />
       </div>
       <div class="station-name">
         <h3>{{ station.name }}</h3>
       </div>
       <div class="station-menu">
-        <button class="menu-button">...</button>
+        <button class="menu-button" routerLink="/Viewproperties">...</button>
       </div>
     </div>
+    <hr>
 
     <div class="station-details d-block">
       <div class="total-sales">
