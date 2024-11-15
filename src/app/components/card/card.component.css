@@ -39,11 +39,19 @@ p {
 }
 
 span.up {
-  color: #00CBC0;;
+  color: #00CBC0;
 }
+.up::before {
+  content: '▲';
+  color: #00CBC0;
+} 
 
 span.down {
   color: #FF7F5C;
+}
+.down::before{
+  content: '▼';
+  color: #FF6F56;
 }
 /* .total-sales{
 width: 201px;

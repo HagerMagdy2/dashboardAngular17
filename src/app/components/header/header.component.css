@@ -41,3 +41,22 @@ strong {
   margin-left: 50px;
   margin-right: 50px;
 }
+.station-info::before{
+  content: "•";
+  color: #FF6F56;
+margin-top:16px ;
+}
+.update-info::before{
+  content: "•";
+  color: #FF6F56;
+margin-top:16px ;
+}
+.curved-arrow {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; 
+  border-top-right-radius: 0; 
+  border-bottom-right-radius: 0; 
+  border: 2px solid #5a5a5a; 
+  transform: rotate(45deg); 
+}

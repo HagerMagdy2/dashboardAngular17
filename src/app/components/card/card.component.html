@@ -2,7 +2,7 @@
   <div class="card total-value">
     <h2>{{ totalValue | currency:'EGP' }}</h2>
     <p>Total Value</p>
-    <span [ngClass]="{'down': totalValueChange < 0, 'up': totalValueChange > 0}">
+    <span [ngClass]="{'up': totalValueChange < 0, 'down': totalValueChange > 0}">
       {{ totalValueChange }}%
     </span>
   </div>
