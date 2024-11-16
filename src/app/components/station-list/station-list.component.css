@@ -1,0 +1,75 @@
+.station-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.station-card {
+  background-color: #f9f8f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.station-header {
+  display: flex;
+  /* margin-left: 20px; */
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+
+.station-name h3 {
+  margin: 0;
+  /* font-size: 18px; */
+  color: #3D5161;
+  font: normal normal bold 18px/18px Montserrat;
+}
+
+.station-menu {
+  display: flex;
+  align-items: center;
+  /* margin-right: 500px; */
+  /* justify-content: flex-end; */
+}
+
+.menu-button {
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #bbb;
+  /* padding-left: 800px; */
+}
+
+.station-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+}
+
+.detail span:first-child {
+  font-weight: bold;
+}
+.total-value span{
+  margin-left: 35px;
+}
+.total-sales span{
+  margin-left: 35px;
+}
+.first{
+  color: #3D5161;
+  font: normal normal bold 12px/15px Montserrat;
+}
+.second{
+  color: #3D5161;
+  font: normal normal small 12px/15px Montserrat;
+}

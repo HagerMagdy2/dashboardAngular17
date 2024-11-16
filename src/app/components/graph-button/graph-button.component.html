@@ -1,0 +1,10 @@
+<div class="graph-selector">
+  <button 
+    [class.active]="selected === 'graph'" 
+    (click)="select('graph')" routerLink="/Charts">GRAPH</button>
+
+  <button 
+    [class.active]="selected === 'list'" 
+    (click)="select('list')" routerLink="/Stationlist"><a>LIST</a></button>
+  
+</div>

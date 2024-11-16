@@ -1,0 +1,43 @@
+.monitor-info {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10px;
+  align-items: center;
+  padding: 8px;
+  background-color: #fff;
+  /* border-radius: 10px; */
+  height: 80px;
+  width: 200%;
+  /* margin-left: 120px; */
+}
+
+.station-info, .update-info {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.station-text, .update-text {
+  /* font-size: 16px; */
+  color: #5a5a5a;
+  font: normal normal normal 13px/15px Roboto;
+}
+.station-text1{
+  font: normal normal normal 24px/32px Roboto;
+  color: #5a5a5a;
+}
+
+strong {
+  font-size: 18px;
+  color: #2c3e50;
+  margin-right: 5px;
+}
+.button{
+  margin-left: 50px;
+  margin-right: 50px;
+}

@@ -1,0 +1,13 @@
+<div class="time-selector">
+  <button 
+    [class.active]="selectedTime === 'today'" 
+    (click)="selectTime('today')">TODAY</button>
+
+  <button 
+    [class.active]="selectedTime === 'yesterday'" 
+    (click)="selectTime('yesterday')">YESTERDAY</button>
+
+  <button 
+    [class.active]="selectedTime === 'lastWeek'" 
+    (click)="selectTime('lastWeek')">LAST WEEK</button>
+</div>

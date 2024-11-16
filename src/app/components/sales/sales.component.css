@@ -1,0 +1,13 @@
+.container{
+  /* margin-top: 50px; */
+  margin-left: 70px;
+  height: 800px;
+}
+h3 {
+  display: flex;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #5a5a5a;
+  align-items: center;
+  justify-content: center;
+}
