@@ -38,7 +38,8 @@ height: 42;
   margin: 0;
   /* font-size: 18px; */
   color: #3D5161;
-  font: normal normal bold 18px/18px Montserrat;
+  font: normal normal bold 18px/22px Montserrat;
+  text-transform: uppercase;
 }
 
 .station-menu {
@@ -53,8 +54,8 @@ height: 42;
   background: none;
   font-size: 18px;
   cursor: pointer;
-  color: #bbb;
-  /* padding-left: 800px; */
+  color: #3D5161;
+  padding-left: 550px;
 }
 
 .station-details {

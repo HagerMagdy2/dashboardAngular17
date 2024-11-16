@@ -15,6 +15,10 @@
 
 mat-form-field {
   width: 100%;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mat-form-field-appearance-outline .mat-form-field-outline-start, 
@@ -23,18 +27,63 @@ mat-form-field {
 }
 
 mat-icon {
+  width: 20px;
+  height:  20px;
   color: #5a5a5a;
 }
 
-.start-date::before {
+/* .start-date::before {
   content: '▶';
   color: #FF6F56;
  margin-right: 8px;
-} 
+}  */
 
 .end-date::before {
-  content: '■';
+  /* content: '■';
   color: #FF6F56;
-   margin-right: 8px; 
+   margin-right: 8px;  */
+   /* width: 10px; */
+   width: 15px;
+   height: 15px;
+   /* border-radius: 50%;  */
+   /* margin-right: 5px; */
+   background-color: #FF6F56;
 } 
-
+.end-date input{
+  height: none;
+}
+.start-date span{
+  font: normal normal bold 13px/15px Roboto;
+  color: #3D5161;
+}
+.end-date span{
+  font: normal normal bold 13px/15px Roboto;
+  color: #3D5161;
+}
+.start-date label{
+  font: normal normal normal 13px/15px Roboto;
+  color: #3D5161;
+}
+.end-date label{
+  font: normal normal normal 13px/15px Roboto;
+  color: #3D5161;
+  /* margin-left: 20px; */
+}
+.ball {
+  width: 15px;
+  height: 15px;
+  /* border-radius: 50%;  */
+  /* margin-right: 5px; */
+  background-color: #FF6F56;
+  margin-bottom: 42px;
+  margin-right: 10px;
+}
+.triangle-icon {
+  width: 0;
+  height: 0;
+  border-left: 15px solid #FF6F56;  /* The triangle color */
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  margin-bottom: 42px;
+  margin-right: 5px;
+}

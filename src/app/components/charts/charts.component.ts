@@ -56,6 +56,7 @@ export class ChartsComponent {
     },
     series: [
       {
+        animation: false,
         name:'',
         data: [250, 140, 200, 240, 130],
         color: '#FF7F5C',

@@ -1,17 +1,20 @@
 <div class="date-time-picker-container">
+  
   <div class="start-date">
+    <div class="triangle-icon"></div>
     <mat-form-field appearance="fill">
-      <mat-label>Start date - time</mat-label>
+      <label><span>Start</span> date - time</label>
       <mat-icon matSuffix></mat-icon>
-      <input matInput [matDatepicker]="startPicker">
+      <input matInput [matDatepicker]="startPicker"> 
       <mat-datepicker-toggle matSuffix [for]="startPicker"></mat-datepicker-toggle>
       <mat-datepicker #startPicker></mat-datepicker>
     </mat-form-field>
   </div>
 
   <div class="end-date">
+    <div class="ball"></div>
     <mat-form-field appearance="fill">
-      <mat-label>End date - time</mat-label>
+      <label><span>End</span> date - time</label>
       <mat-icon matSuffix></mat-icon>
       <input matInput [matDatepicker]="endPicker">
       <mat-datepicker-toggle matSuffix [for]="endPicker"></mat-datepicker-toggle>

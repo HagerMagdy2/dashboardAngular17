@@ -57,8 +57,8 @@ strong {
   margin-right: 5px;
 }
 .button{
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 40px;
+  margin-right:40px;
 }
 /* .station-info::before{
   content: "•";
@@ -78,4 +78,10 @@ margin-top:16px ;
   border-bottom-right-radius: 0; 
   border: 2px solid #5a5a5a; 
   transform: rotate(45deg); 
+}
+.iimg{
+  width: 40px;
+  height: 60px;
+  margin-right: 5px;
+  margin-top: 20px;
 }
