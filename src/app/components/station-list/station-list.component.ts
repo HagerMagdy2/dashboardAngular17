@@ -2,6 +2,8 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
+import { MatDialog } from '@angular/material/dialog';
+import { ViewPropertiesComponent } from '../view-properties/view-properties.component';
 export interface Station {
   ballColor: string;
   img: string;
@@ -21,6 +23,16 @@ export interface Station {
   styleUrl: './station-list.component.css'
 })
 export class StationListComponent {
+  constructor(private dialog: MatDialog) {}
+  openDialog(): void {
+    const dialogRef = this.dialog.open(ViewPropertiesComponent, {
+      width: '500px',
+    });
+  
+    dialogRef.afterClosed().subscribe(result => {
+      console.log('The dialog was closed');
+    });
+  }
   stations: Station[] = [
     {
       ballColor: '#FF6F56',
